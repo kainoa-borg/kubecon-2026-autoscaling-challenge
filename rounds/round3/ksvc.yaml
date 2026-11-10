@@ -14,7 +14,7 @@ spec:
         autoscaling.knative.dev/target: "10"
         autoscaling.knative.dev/window: "60s"
         autoscaling.knative.dev/min-scale: "1"
-        autoscaling.knative.dev/max-scale: "10"
+        autoscaling.knative.dev/max-scale: "2"
     spec:
       containers:
       # nginx and php-fpm scale together - one Pod, two app containers
